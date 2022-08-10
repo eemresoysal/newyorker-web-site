@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    position: relative;
+    width: 1080px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 70px;
+}
+#headerleft{
+    border: 1px solid red;
+    width: 84%;
+    text-align: center;
+    position: relative;
+    height: 70px;
+}
+#headerright{
+    border: 1px solid red;
+    display: inline;
+    position:absolute;
+    top: 25px;
+    right: 5px;
+    
+}
+button{
+border-style: none;
+padding: 2px;
+margin: 1px;
+background-color: white;
+
+
+}
+
+h1{
+    position: absolute;
+    top: 30px;
+    left: 380px;
+    
+}
+
+h2{
+    position: absolute;
+    top: 5px;
+    left: 470px;
+      
+}
+
+.navbar{
+    margin-top: 10px;
+}
+.navbar li{
+   /* border: 1px solid red; */
+   list-style-type: none;; 
+   display: inline;
+   margin: 15px;
+   padding-left: 10px;
+}
+#info{
+   border: 1px solid red; 
+   text-align: center;
+   padding: 15px;
+   margin: 10px;
+}
+#box1 img{
+    width: 245px;
+}
+.altekran{
+    position: relative;
+}
+#box1{
+    border: 1px solid red;
+    text-align: justify;
+    width: 250px;
+}
+#box2 img{
+    width: 540px;
+    position: absolute;
+    top: 1px;
+    left: 265px;
+}
+#box3{
+    border: 1px solid red;
+    text-align: justify;
+    width: 250px;
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}
+#headerleft h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 41px;
+}
+
+#headerleft h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 31px;
+}
+.navbar li:hover{
+    cursor: pointer;
+    background-color: orange;
+    font-size: large;
+    
+}
